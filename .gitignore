@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Rendered MP4 outputs and temporary media
+outputs/*.mp4
+outputs/*.m4a
+workspace_media/demo/*
+workspace_media/uploads/*
+!workspace_media/demo/.gitkeep
+!workspace_media/uploads/.gitkeep
+!outputs/.gitkeep
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
